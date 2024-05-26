@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ShoppingListViewController: UITableViewController {
+final class ShoppingListViewController: UITableViewController {
     
     let jsonParser = JSONParser()
     let userDefaults = UserDefaults.standard
@@ -176,7 +176,5 @@ extension ShoppingListViewController {
         
         return UISwipeActionsConfiguration(actions:[delete])
     }
-    
-    
 }
 

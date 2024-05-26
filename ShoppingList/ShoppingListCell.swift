@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ShoppingListCell: UITableViewCell {
+final class ShoppingListCell: UITableViewCell {
     
     @IBOutlet var checkButton: UIButton!
     @IBOutlet var starButton: UIButton!

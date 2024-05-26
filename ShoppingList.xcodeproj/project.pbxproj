@@ -74,9 +74,9 @@
 			isa = PBXGroup;
 			children = (
 				8434D4AC2C03048800D15F8E /* App */,
+				84F3F0F22C020BB600ED8358 /* ShoppingListViewController.swift */,
 				84F3F1042C02152200ED8358 /* ShoppingListCell.swift */,
 				8434D4AA2C02FCE500D15F8E /* AddProductButton.swift */,
-				84F3F0F22C020BB600ED8358 /* ShoppingListViewController.swift */,
 				84F3F1062C0240B600ED8358 /* Product.swift */,
 				8434D4AD2C03174A00D15F8E /* JSONParser.swift */,
 				84F3F0F42C020BB600ED8358 /* Main.storyboard */,

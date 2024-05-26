@@ -7,7 +7,7 @@
 
 import UIKit
 
-class AddProductButton: UIButton {
+final class AddProductButton: UIButton {
     
     override var isHighlighted: Bool {
         get {

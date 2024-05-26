@@ -5,10 +5,9 @@
 //  Created by dopamint on 5/26/24.
 //
 
-
 import UIKit
 
-class AddButton: UIButton {
+class AddProductButton: UIButton {
     
     override var isHighlighted: Bool {
         get {

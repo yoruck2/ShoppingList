@@ -18,22 +18,20 @@ class ShoppingListViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(#function)
 
-        // 첫 실행 판별
-        let launchedBefore = userDefaults.bool(forKey: "launchedBefore")
-        if launchedBefore == false {
-            shoppingList = [Product(name: "살 것을 추가해 주세요!", isChecked: true, isGetStar: false)]
-            userDefaults.set(true, forKey: "launchedBefore")
-        }
-        
         tableView.sectionHeaderTopPadding = 0
         setUpAddProductTextField()
         setUpAddProductButton()
-        
         shoppingList = jsonParser.readUserDefaults()
-        tableView.reloadData()
-        print(shoppingList)
+        
+        // 첫 실행 판별
+        let launchedBefore = userDefaults.bool(forKey: "launchedBefore")
+        if launchedBefore == false {
+            shoppingList.append(Product(name: "살 것을 추가해 주세요!", isChecked: true, isGetStar: false))
+            jsonParser.saveUserDefaults(shoppingList)
+            userDefaults.set(true, forKey: "launchedBefore")
+        }
+        
     }
     
     
@@ -76,8 +74,8 @@ class ShoppingListViewController: UITableViewController {
     
     @IBAction func resetButtonTapped(_ sender: UIButton) {
         
-        let resetAlert = UIAlertController(title: "초기화",
-                                           message: "리스트를 초기화 할래요?",
+        let resetAlert = UIAlertController(title: "⚠️",
+                                           message: "\n리스트를 초기화 할래요?",
                                            preferredStyle: .alert)
         let confirm = UIAlertAction(title: "네",
                                     style: .destructive) { [self] action in

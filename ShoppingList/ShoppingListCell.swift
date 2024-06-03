@@ -21,6 +21,7 @@ final class ShoppingListCell: UITableViewCell {
     func setUpCell() {
         self.shoppingListCellView.layer.cornerRadius = 10
         self.shoppingListCellView.backgroundColor = #colorLiteral(red: 0.9490196078, green: 0.9490196078, blue: 0.968627451, alpha: 1)
+        self.selectionStyle = .none
         setUpCheckButton()
         setUpStarButton()
     }

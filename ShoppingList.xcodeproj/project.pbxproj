@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8434D4AB2C02FCE500D15F8E /* AddProductButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8434D4AA2C02FCE500D15F8E /* AddProductButton.swift */; };
-		8434D4AE2C03174A00D15F8E /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8434D4AD2C03174A00D15F8E /* JSONParser.swift */; };
+		8434D4AE2C03174A00D15F8E /* UserDefaultsStorable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8434D4AD2C03174A00D15F8E /* UserDefaultsStorable.swift */; };
 		84F3F0EF2C020BB600ED8358 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F3F0EE2C020BB600ED8358 /* AppDelegate.swift */; };
 		84F3F0F12C020BB600ED8358 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F3F0F02C020BB600ED8358 /* SceneDelegate.swift */; };
 		84F3F0F32C020BB600ED8358 /* ShoppingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F3F0F22C020BB600ED8358 /* ShoppingListViewController.swift */; };
@@ -21,7 +21,7 @@
 
 /* Begin PBXFileReference section */
 		8434D4AA2C02FCE500D15F8E /* AddProductButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductButton.swift; sourceTree = "<group>"; };
-		8434D4AD2C03174A00D15F8E /* JSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
+		8434D4AD2C03174A00D15F8E /* UserDefaultsStorable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsStorable.swift; sourceTree = "<group>"; };
 		84F3F0EB2C020BB600ED8358 /* ShoppingList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F3F0EE2C020BB600ED8358 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84F3F0F02C020BB600ED8358 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,7 +78,7 @@
 				84F3F1042C02152200ED8358 /* ShoppingListCell.swift */,
 				8434D4AA2C02FCE500D15F8E /* AddProductButton.swift */,
 				84F3F1062C0240B600ED8358 /* Product.swift */,
-				8434D4AD2C03174A00D15F8E /* JSONParser.swift */,
+				8434D4AD2C03174A00D15F8E /* UserDefaultsStorable.swift */,
 				84F3F0F42C020BB600ED8358 /* Main.storyboard */,
 				84F3F0F92C020BB700ED8358 /* LaunchScreen.storyboard */,
 				84F3F0F72C020BB700ED8358 /* Assets.xcassets */,
@@ -159,7 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8434D4AB2C02FCE500D15F8E /* AddProductButton.swift in Sources */,
-				8434D4AE2C03174A00D15F8E /* JSONParser.swift in Sources */,
+				8434D4AE2C03174A00D15F8E /* UserDefaultsStorable.swift in Sources */,
 				84F3F0F32C020BB600ED8358 /* ShoppingListViewController.swift in Sources */,
 				84F3F0EF2C020BB600ED8358 /* AppDelegate.swift in Sources */,
 				84F3F0F12C020BB600ED8358 /* SceneDelegate.swift in Sources */,
